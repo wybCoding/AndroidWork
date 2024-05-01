@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_overview"
+        android:icon="@drawable/ic_overview_black_24dp"
+        android:title="@string/title_overview" />
+
+    <item
+        android:id="@+id/navigation_compare"
+        android:icon="@drawable/ic_compare_black_24dp"
+        android:title="@string/title_compare" />
+
+    <item
+        android:id="@+id/navigation_realtime"
+        android:icon="@drawable/ic_realtime_black_24dp"
+        android:title="@string/title_realtime" />
+    <item
+        android:id="@+id/navigation_user"
+        android:icon="@drawable/ic_user_black_24dp"
+        android:title="@string/title_user" />
+</menu>

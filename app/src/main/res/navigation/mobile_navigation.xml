@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_overview">
+
+    <fragment
+        android:id="@+id/navigation_overview"
+        android:name="com.example.electricanalyse.ui.overview.OverviewFragment"
+        android:label="@string/title_overview"
+        tools:layout="@layout/fragment_overview" />
+
+    <fragment
+        android:id="@+id/navigation_realtime"
+        android:name="com.example.electricanalyse.ui.realtime.RealtimeFragment"
+        android:label="@string/title_realtime"
+        tools:layout="@layout/fragment_realtime" />
+
+    <fragment
+        android:id="@+id/navigation_compare"
+        android:name="com.example.electricanalyse.ui.compare.CompareFragment"
+        android:label="@string/title_compare"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_user"
+        android:name="com.example.electricanalyse.ui.user.UserFragment"
+        android:label="@string/title_user"
+        tools:layout="@layout/fragment_user" />
+</navigation>

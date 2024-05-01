@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ElectricAnalyse</string>
+    <string name="title_overview">总览</string>
+    <string name="title_compare">评比</string>
+    <string name="title_realtime">实时</string>
+    <string name="title_user">我的</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="realtime_btn_search">Search</string>
+    <string name="realtime_tv_updatetime">更新时间</string>
+    <string name="realtime_tv_power">功率</string>
+</resources>
