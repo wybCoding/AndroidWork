@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import com.example.electricanalyse.R
 import com.example.electricanalyse.databinding.FragmentUserBinding
 
@@ -29,6 +30,16 @@ class UserFragment : Fragment() {
         // Inflate the layout for this fragment
         return binding.root
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+
+        binding.aboutCard.setOnClickListener {
+            // somthing to finish
+        }
+    }
+
 
     override fun onDestroyView() {
         super.onDestroyView()

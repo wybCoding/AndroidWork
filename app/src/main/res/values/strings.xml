@@ -9,4 +9,10 @@
     <string name="realtime_btn_search">Search</string>
     <string name="realtime_tv_updatetime">更新时间</string>
     <string name="realtime_tv_power">功率</string>
+    <string name="overview_today">本日</string>
+    <string name="overview_week">本周</string>
+    <string name="compare_change_text">相较于上一个月，您的用电量变化了：</string>
+    <string name="compare_advice">建议：</string>
+    <string name="userfragment_about">关于</string>
+    <string name="userfragment_about_detail">Bio: This is a sample user profile.</string>
 </resources>

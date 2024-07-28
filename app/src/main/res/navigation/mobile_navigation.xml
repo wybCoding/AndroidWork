@@ -21,7 +21,7 @@
         android:id="@+id/navigation_compare"
         android:name="com.example.electricanalyse.ui.compare.CompareFragment"
         android:label="@string/title_compare"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_compare" />
     <fragment
         android:id="@+id/navigation_user"
         android:name="com.example.electricanalyse.ui.user.UserFragment"

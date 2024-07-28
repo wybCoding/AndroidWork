@@ -3,6 +3,8 @@ package com.example.electricanalyse
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.core.content.ContextCompat
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
@@ -19,6 +21,11 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
+        //设置背景颜色
+        val container = binding.container
+        container.setBackgroundColor(ContextCompat.getColor(this, R.color.bg_color))
 
         val navView: BottomNavigationView = binding.navView
 

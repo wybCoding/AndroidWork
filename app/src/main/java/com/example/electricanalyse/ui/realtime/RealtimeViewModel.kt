@@ -5,7 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.electricanalyse.logic.Repository.ApplianceRepository
+import com.example.electricanalyse.logic.Repository.RealtimeRepositoryInter
 import com.example.electricanalyse.logic.Repository.RealtimeRepository
 import com.example.electricanalyse.logic.model.Appliance
 import kotlinx.coroutines.delay
@@ -17,7 +17,7 @@ class RealtimeViewModel : ViewModel() {
         private const val TAG = "RealtimeViewModel"
     }
 
-    private val repository: ApplianceRepository by lazy {
+    private val repository: RealtimeRepositoryInter by lazy {
         RealtimeRepository
     }
 
@@ -30,6 +30,7 @@ class RealtimeViewModel : ViewModel() {
 
 
     init {
+        //这是一个长时间的实时通信，因此在创建时就要通信
         loadApplianceList()
     }
 
